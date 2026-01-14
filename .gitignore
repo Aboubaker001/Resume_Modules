@@ -1,0 +1,62 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+*.pyc
+*.pyo
+__pycache__/
+*.o
+*.out
+
+# Build directories
+build/
+dist/
+target/
+out/
+bin/
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Personal notes (use _personal/ for local notes)
+_personal/
+_draft/
+*.draft.md
+
+# Backup files
+*.bak
+*.backup
+
+# Environment files
+.env
+.env.local
