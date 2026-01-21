@@ -12,7 +12,7 @@
 |:-:|:--------|:------|:------:|:----------:|:--------:|
 | 1 | **Compilation** | تصميم وبناء المترجمات | [📘](01_Compilation/README.md) | [📝](01_Compilation/cheatsheet.md) | [📖](01_Compilation/glossary.md) |
 | 2 | **Génie Logiciel** | هندسة البرمجيات ومنهجياتها | [📘](02_Genie_Logiciel/README.md) | [📝](02_Genie_Logiciel/cheatsheet.md) | [📖](02_Genie_Logiciel/glossary.md) |
-| 3 | **Système d'Exploitation** | أنظمة التشغيل | [📘](03_Systeme_Exploitation/README.md) | [📝](03_Systeme_Exploitation/cheatsheet.md) | [📖](03_Systeme_Exploitation/glossary.md) |
+| 3 | **Système d'Exploitation** | أنظمة التشغيل | [📘](01_Systeme_d_Exploitation/README.md) | [📝](01_Systeme_d_Exploitation/cheatsheet.md) | [📖](01_Systeme_d_Exploitation/glossary.md) |
 | 4 | **Programmation Linéaire** | البرمجة الخطية والتحسين | [📘](04_Programmation_Lineaire/README.md) | [📝](04_Programmation_Lineaire/cheatsheet.md) | [📖](04_Programmation_Lineaire/glossary.md) |
 
 ---
