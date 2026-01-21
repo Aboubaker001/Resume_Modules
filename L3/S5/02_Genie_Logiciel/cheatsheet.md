@@ -1,125 +1,34 @@
-<div dir="rtl" align="right">
+# ⚡ GL Exam Cheatsheet: UML & SOLID
 
-# 📝 ورقة الغش - Génie Logiciel
+The ultimate one-page revision guide for the **Génie Logiciel** exam.
 
-> مراجعة سريعة قبل الامتحان
+## 📊 UML Diagram Selection
+| If the question asks for... | Use this Diagram |
+| :--- | :--- |
+| **Functional requirements** / What the system does | **Use Case Diagram** |
+| **Static structure** / Classes, attributes, methods | **Class Diagram** |
+| **Dynamic interaction** / Messages between objects | **Sequence Diagram** |
+| **Workflow** / Logic, loops, and parallel tasks | **Activity Diagram** |
+| **Object lifecycle** / Transitions between states | **State Machine Diagram** |
 
----
+## 🏗️ SOLID Principles (One-Line Rules)
+1. **S**ingle Responsibility: A class should have only **one reason to change**.
+2. **O**pen/Closed: Software entities should be **open for extension**, but **closed for modification**.
+3. **L**iskov Substitution: Subtypes must be **substitutable** for their base types.
+4. **I**nterface Segregation: Many **specific interfaces** are better than one general-purpose interface.
+5. **D**ependency Inversion: Depend on **abstractions**, not on concretions.
 
-## 🔄 دورات حياة البرمجيات
+## 🗝️ UML Notation Reminders
+- **Visibility**: `+` (Public), `-` (Private), `#` (Protected), `~` (Package).
+- **Relationships**:
+  - `───▶` Association (Simple link)
+  - `───◇` Aggregation ("Has-a", weak)
+  - `───◆` Composition ("Part-of", strong/life-dependent)
+  - `───▷` Generalization (Inheritance)
+  - `- - ▷` Realization (Interface implementation)
+- **Multiplicities**: `1`, `0..*` (Many), `1..*` (At least one).
 
-```
-Cascade (Waterfall):
-Analyse → Conception → Implémentation → Test → Maintenance
-         ↓ لا رجوع ↓
-
-Cycle en V:
-Analyse ←→ Tests d'acceptation
-  ↓              ↑
-Conception ←→ Tests d'intégration
-  ↓              ↑
-Codage ←→ Tests unitaires
-
-Agile/Scrum:
-Sprint 1 → Sprint 2 → Sprint 3 → ... → Produit Final
-(2-4 semaines par sprint)
-```
-
----
-
-## 📌 قبل الفرض - نقاط أساسية
-
-### مخططات UML
-
-- [ ] **Use Case Diagram**
-  - Actor (عصا): مستخدم خارجي
-  - Use Case (بيضاوي): وظيفة
-  - `<<include>>`: علاقة إجبارية
-  - `<<extend>>`: علاقة اختيارية
-
-- [ ] **Class Diagram**
-  - `+` public, `-` private, `#` protected
-  - Association: خط بسيط
-  - Aggregation: ماسة فارغة ◇
-  - Composition: ماسة ممتلئة ◆
-  - Héritage: سهم مثلث △
-  - Multiplicité: `1`, `0..1`, `*`, `1..*`
-
-- [ ] **Sequence Diagram**
-  - Lifeline: خط متقطع عمودي
-  - Message synchrone: سهم ممتلئ →
-  - Message asynchrone: سهم مفتوح ⟶
-  - Return: خط متقطع ⟵
-
-- [ ] **Activity Diagram**
-  - Initial: دائرة سوداء ●
-  - Final: دائرة مزدوجة ◉
-  - Decision: ماسة ◇
-  - Fork/Join: شريط أسود
-
-### مبادئ SOLID
-
-- [ ] **S** - Single Responsibility: مسؤولية واحدة لكل صنف
-- [ ] **O** - Open/Closed: مفتوح للتوسيع، مغلق للتعديل
-- [ ] **L** - Liskov Substitution: الأصناف الفرعية تحل محل الأب
-- [ ] **I** - Interface Segregation: واجهات صغيرة ومحددة
-- [ ] **D** - Dependency Inversion: الاعتماد على التجريد
-
-### أنماط التصميم (Design Patterns)
-
-- [ ] **Creational**
-  - Singleton: نسخة واحدة فقط
-  - Factory: إنشاء كائنات بدون تحديد الصنف
-  - Builder: بناء كائنات معقدة خطوة بخطوة
-
-- [ ] **Structural**
-  - Adapter: توافق بين واجهتين
-  - Decorator: إضافة وظائف ديناميكياً
-  - Facade: واجهة مبسطة لنظام معقد
-
-- [ ] **Behavioral**
-  - Observer: إشعار عند التغيير
-  - Strategy: تبديل الخوارزميات
-  - State: سلوك حسب الحالة
-
----
-
-## 📐 رموز UML الأساسية
-
-```
-Class Diagram:
-┌─────────────────┐
-│   ClassName     │  ← اسم الصنف
-├─────────────────┤
-│ - attribute: Type│  ← الخصائص
-├─────────────────┤
-│ + method(): Type │  ← الطرق
-└─────────────────┘
-
-Relations:
-A ────────── B     Association
-A ◇───────── B     Aggregation
-A ◆───────── B     Composition
-A ─────────▷ B     Héritage
-A - - - - -▷ B     Implémentation
-```
-
----
-
-## ⚠️ أخطاء شائعة
-
-| الخطأ | التصحيح |
-|:------|:--------|
-| خلط Aggregation و Composition | Composition = ملكية قوية (الجزء يموت مع الكل) |
-| نسيان الـ Multiplicité | دائماً حدد العلاقة (1, *, 0..1) |
-| Actor داخل النظام | Actor دائماً خارج حدود النظام |
-
----
-
-## 🔗 روابط سريعة
-
-- [📘 فهرس المقياس](README.md)
-- [📖 قاموس المصطلحات](glossary.md)
-- [⬆️ فهرس السداسي](../00_Index.md)
-
-</div>
+## 💡 Exam Strategy
+- **Read the scenario twice**: Identify nouns (Classes) and verbs (Methods/Activities).
+- **Justify your choices**: If you pick a pattern, explain *why* (e.g., "To allow adding new features without modifying existing code").
+- **Mermaid Syntax Tip**: Use `graph TD` for flow, `classDiagram` for structure, and `sequenceDiagram` for interactions.

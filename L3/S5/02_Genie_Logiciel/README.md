@@ -1,109 +1,63 @@
-<div dir="rtl" align="right">
+# 📘 Génie Logiciel (Software Engineering) - L3 S5
 
-# 📘 Génie Logiciel - هندسة البرمجيات
-
-> دراسة منهجيات تطوير البرمجيات ونمذجة الأنظمة باستخدام UML
+Welcome to the **Génie Logiciel (GL)** academic resource folder. This module is a cornerstone of the Licence 3 (L3) Software Engineering curriculum in Algerian universities. It focuses on the methodologies, principles, and tools required to build robust, maintainable, and scalable software systems.
 
 ---
 
-## 📋 معلومات المقياس
+## 📋 Module Information | معلومات المقياس
 
-| المعلومة | القيمة |
-|:---------|:-------|
-| **الرمز** | GL |
-| **المعامل** | 3 |
-| **الرصيد** | 5 |
-| **السداسي** | S5 |
-| **نوع التقييم** | Examen + TD/TP |
-
----
-
-## 📚 قائمة الفصول
-
-| # | الفصل | الملخص | الحالة |
-|:-:|:------|:------:|:------:|
-| 1 | مقدمة في هندسة البرمجيات (Introduction au GL) | [📄](resumes/chapitre_01_introduction.md) | ☐ |
-| 2 | دورة حياة البرمجيات (Cycle de vie) | [📄](resumes/chapitre_02_cycle_vie.md) | ☐ |
-| 3 | لغة النمذجة الموحدة UML | [📄](resumes/chapitre_03_uml.md) | ☐ |
-| 4 | أنماط التصميم (Design Patterns) | [📄](resumes/chapitre_04_design_patterns.md) | ☐ |
-| 5 | الاختبار والجودة (Tests et Qualité) | [📄](resumes/chapitre_05_tests_qualite.md) | ☐ |
+| Information | Value |
+| :--- | :--- |
+| **Code** | GL |
+| **Coefficient** | 3 |
+| **Credits** | 5 |
+| **Semester** | S5 |
+| **Evaluation** | Exam (60%) + TD/TP (40%) |
 
 ---
 
-## ⭐ ملخص شامل - UML و SOLID (موجه للامتحان)
+## 📂 Folder Structure | هيكلة المجلد
 
-> **ملخص مركز وشامل يغطي جميع مخططات UML الخمسة ومبادئ SOLID الخمسة**
-
-| الموضوع | الرابط | الحالة |
-|:--------|:------:|:------:|
-| **UML + SOLID - ملخص الامتحان** | [📄 الملخص الشامل](resumes/chapitre_UML_SOLID.md) | ✅ |
-
-**يحتوي على**:
-- ✅ مخططات UML الخمسة (Use Case, Activity, State, Sequence, Class)
-- ✅ مبادئ SOLID الخمسة مع أمثلة Java
-- ✅ ورقة غش سريعة للامتحان
-- ✅ قاموس مصطلحات (عربي-فرنسي-إنجليزي)
-- ✅ تمارين تطبيقية مع إرشادات الحل
+- [**resumes/**](./resumes/): Detailed academic summaries for each core topic (UML, SOLID, Patterns).
+- [**td_tp/**](./td_tp/): Solved Tutorial (TD) and Practical (TP) exercises based on real exam patterns.
+- [**cheatsheet.md**](./cheatsheet.md): A concise summary for quick revision.
+- [**glossary.md**](./glossary.md): Key terminology in English, French, and Arabic.
 
 ---
 
-## 📁 محتويات المجلد
+## 📚 Course Chapters | قائمة الفصول
 
-```
-02_Genie_Logiciel/
-├── README.md           # هذا الملف
-├── cheatsheet.md       # ورقة الغش للمراجعة السريعة
-├── glossary.md         # قاموس المصطلحات
-├── resources.md        # مصادر إضافية
-├── resumes/            # ملخصات الفصول
-│   └── chapitre_UML_SOLID.md  # ⭐ الملخص الشامل
-├── cours/              # ملفات الدروس الأصلية
-├── td/                 # تمارين موجهة (دراسات حالة)
-├── tp/                 # أعمال تطبيقية (UML tools)
-└── exams/              # امتحانات سابقة مع التصحيح
-```
+| # | Chapter | Summary | Status |
+| :-: | :--- | :---: | :---: |
+| 1 | UML Fundamentals | [📄](./resumes/01_UML_Fondamentaux.md) | ✅ |
+| 2 | Use Case Diagrams | [📄](./resumes/02_UseCase.md) | ✅ |
+| 3 | Activity Diagrams | [📄](./resumes/03_Activity.md) | ✅ |
+| 4 | State Machine Diagrams | [📄](./resumes/04_StateMachine.md) | ✅ |
+| 5 | Sequence Diagrams | [📄](./resumes/05_Sequence.md) | ✅ |
+| 6 | Class Diagrams | [📄](./resumes/06_ClassDiagram.md) | ✅ |
+| 7 | SOLID Principles | [📄](./resumes/07_SOLID.md) | ✅ |
+| 8 | Core Design Patterns | [📄](./resumes/08_DesignPatterns_Core.md) | ✅ |
 
 ---
 
-## 🎯 نصائح للامتحان
+## 🎯 Exam Preparation | التحضير للامتحان
 
-### ما يُركز عليه عادةً
+### What Professors Look For
+- **Precision in UML**: Correct arrow types, multiplicities, and notation.
+- **Justification**: Why did you choose this pattern or relationship?
+- **SOLID Compliance**: Identifying violations and proposing refactored solutions.
 
-- [x] مخططات UML (Use Case, Class, Sequence, Activity, State)
-- [ ] منهجيات التطوير (Cascade, Agile, Scrum)
-- [ ] أنماط التصميم الشائعة (Singleton, Factory, Observer)
-- [x] مبادئ SOLID
-- [ ] أنواع الاختبارات
-
-### نوع الأسئلة المتوقعة
-
-| النوع | الوصف | النسبة التقريبية |
-|:------|:------|:----------------:|
-| نظري | تعريفات ومقارنات | 30% |
-| تطبيقي | رسم مخططات UML | 50% |
-| تحليلي | دراسة حالة | 20% |
-
-### نصائح خاصة
-
-> **مهم جداً**: تدرب على رسم مخططات UML يدوياً بدقة. احفظ الرموز القياسية (الأسهم، العلاقات، الصناديق). في الامتحان، الوضوح والترتيب مهمان جداً.
-
-### مخططات UML الأساسية
-
-| المخطط | الاستخدام |
-|:-------|:----------|
-| **Use Case** | تحديد المتطلبات الوظيفية |
-| **Class Diagram** | بنية النظام (الأصناف والعلاقات) |
-| **Sequence Diagram** | تفاعل الكائنات عبر الزمن |
-| **Activity Diagram** | سير العمليات |
-| **State Diagram** | حالات الكائن |
+### Typical Exam Structure
+1. **Theory (4-6 pts)**: Definitions, comparisons (e.g., Aggregation vs Composition).
+2. **UML Modeling (8-10 pts)**: Drawing diagrams based on a case study (e.g., Library, Hospital).
+3. **Design & SOLID (4-6 pts)**: Applying patterns or fixing SOLID violations in code snippets.
 
 ---
 
-## 🔗 روابط سريعة
+## 📖 How to Use This Content
+1. **Start with the Resumes**: Read the theoretical foundations and study the Mermaid diagrams.
+2. **Practice with TD/TP**: Solve the exercises independently before checking the solutions.
+3. **Final Revision**: Use the `cheatsheet.md` the night before your exam to refresh your memory.
 
-- [📝 ورقة الغش](cheatsheet.md)
-- [📖 قاموس المصطلحات](glossary.md)
-- [🔗 مصادر إضافية](resources.md)
-- [⬆️ العودة للفهرس](../00_Index.md)
-
-</div>
+---
+*Created for L3 students aiming for excellence in Software Engineering.*
