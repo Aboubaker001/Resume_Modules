@@ -1,85 +1,28 @@
-<div dir="rtl" align="right">
+# 📖 Glossary: Génie Logiciel (Software Engineering)
 
-# 📖 قاموس المصطلحات - Génie Logiciel
+This glossary provides the core terminology used in Software Engineering exams, translated across Arabic, French, and English to ensure full comprehension.
 
-> قاموس ثلاثي اللغات للمصطلحات التقنية المستخدمة في مقياس هندسة البرمجيات
+| Arabic | French | English |
+| :--- | :--- | :--- |
+| **هندسة البرمجيات** | Génie Logiciel | Software Engineering |
+| **متطلب / حاجة** | Besoin / Exigence | Requirement |
+| **حالة استخدام** | Cas d'utilisation | Use Case |
+| **فاعل** | Acteur | Actor |
+| **مخطط الأصناف** | Diagramme de classes | Class Diagram |
+| **مخطط التتابع** | Diagramme de séquence | Sequence Diagram |
+| **مخطط الأنشطة** | Diagramme d'activités | Activity Diagram |
+| **مخطط الحالات** | Diagramme d'états-transitions | State Machine |
+| **وراثة** | Héritage | Inheritance |
+| **علاقة / ارتباط** | Association | Association |
+| **تجميع** | Agrégation | Aggregation |
+| **تركيب** | Composition | Composition |
+| **تعددية** | Multiplicité | Multiplicity |
+| **تغليف** | Encapsulation | Encapsulation |
+| **تعدد الأشكال** | Polymorphisme | Polymorphism |
+| **نمط تصميم** | Patron de conception | Design Pattern |
+| **إعادة هيكلة الكود** | Réusinage | Refactoring |
+| **نشر** | Déploiement | Deployment |
+| **صيانة** | Maintenance | Maintenance |
+| **صاحب مصلحة** | Partie prenante | Stakeholder |
 
----
-
-## 🔤 كيفية استخدام هذا القاموس
-
-1. ابحث عن المصطلح بأي لغة من اللغات الثلاث
-2. استخدم `Ctrl+F` للبحث السريع
-3. المصطلحات مرتبة أبجدياً حسب الترجمة الفرنسية
-
----
-
-## 📚 المصطلحات الأساسية
-
-| العربية | Français | English | التعريف |
-|:--------|:---------|:--------|:--------|
-| هندسة البرمجيات | Génie logiciel | Software Engineering | تطبيق المبادئ الهندسية على تطوير البرمجيات |
-| دورة الحياة | Cycle de vie | Life cycle | مراحل تطوير البرنامج من البداية للنهاية |
-| المتطلبات | Exigences | Requirements | ما يجب أن يفعله النظام |
-| التصميم | Conception | Design | تحديد بنية النظام |
-| التنفيذ | Implémentation | Implementation | كتابة الكود |
-| الاختبار | Test | Testing | التحقق من صحة البرنامج |
-| الصيانة | Maintenance | Maintenance | تعديل البرنامج بعد التسليم |
-| نمط التصميم | Patron de conception | Design Pattern | حل قابل لإعادة الاستخدام |
-| الصنف | Classe | Class | قالب لإنشاء الكائنات |
-| الكائن | Objet | Object | نسخة من صنف |
-| الوراثة | Héritage | Inheritance | اكتساب خصائص صنف آخر |
-| التغليف | Encapsulation | Encapsulation | إخفاء التفاصيل الداخلية |
-| تعدد الأشكال | Polymorphisme | Polymorphism | سلوك مختلف لنفس الواجهة |
-| الواجهة | Interface | Interface | عقد يحدد الطرق المطلوبة |
-| التجريد | Abstraction | Abstraction | إخفاء التعقيد |
-
----
-
-## 📚 مصطلحات UML
-
-| العربية | Français | English | التعريف |
-|:--------|:---------|:--------|:--------|
-| مخطط الحالات | Diagramme de cas d'utilisation | Use Case Diagram | يوضح تفاعل المستخدمين مع النظام |
-| مخطط الأصناف | Diagramme de classes | Class Diagram | يوضح بنية الأصناف والعلاقات |
-| مخطط التسلسل | Diagramme de séquence | Sequence Diagram | يوضح تفاعل الكائنات عبر الزمن |
-| مخطط النشاط | Diagramme d'activité | Activity Diagram | يوضح سير العمليات |
-| الفاعل | Acteur | Actor | كيان خارجي يتفاعل مع النظام |
-| العلاقة | Association | Association | رابط بين صنفين |
-| التجميع | Agrégation | Aggregation | علاقة "جزء من" ضعيفة |
-| التركيب | Composition | Composition | علاقة "جزء من" قوية |
-
----
-
-## 📝 اختصارات شائعة
-
-| الاختصار | المعنى الكامل | الشرح |
-|:---------|:-------------|:------|
-| UML | Unified Modeling Language | لغة النمذجة الموحدة |
-| SOLID | Single, Open, Liskov, Interface, Dependency | مبادئ التصميم الجيد |
-| TDD | Test-Driven Development | التطوير الموجه بالاختبارات |
-| CI/CD | Continuous Integration/Deployment | التكامل والنشر المستمر |
-| OOP | Object-Oriented Programming | البرمجة كائنية التوجه |
-
----
-
-## 💬 عبارات تقنية مفيدة
-
-| العربية | Français | English |
-|:--------|:---------|:--------|
-| رسم مخطط الأصناف | Dessiner le diagramme de classes | Draw the class diagram |
-| تحديد المتطلبات الوظيفية | Identifier les exigences fonctionnelles | Identify functional requirements |
-| تطبيق نمط المراقب | Appliquer le patron Observer | Apply the Observer pattern |
-
----
-
-## 🔗 روابط ذات صلة
-
-- [📋 فهرس المقياس](README.md)
-- [📝 ورقة الغش](cheatsheet.md)
-
----
-
-> **ملاحظة**: هذا القاموس قابل للتوسيع. إذا وجدت مصطلحاً جديداً، أضفه هنا!
-
-</div>
+> **Exam Tip**: In Algerian exams, questions are often asked in French or English. Knowing the Arabic equivalent helps in conceptual understanding, but always use the official French/English terms in your diagrams.
