@@ -1,6 +1,6 @@
 <div dir="rtl" align="right">
 
-# 📝 ورقة الغش - Compilation
+# 📝 ورقة المراجعة - Compilation
 
 > مراجعة سريعة قبل الامتحان
 
