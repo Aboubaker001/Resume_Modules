@@ -1,6 +1,6 @@
 <div dir="rtl" align="right">
 
-# 📝 ورقة الغش - Économie Numérique et Veille Stratégique
+# 📝 ورقة المراجعة - Économie Numérique et Veille Stratégique
 
 > مراجعة سريعة قبل الامتحان
 
