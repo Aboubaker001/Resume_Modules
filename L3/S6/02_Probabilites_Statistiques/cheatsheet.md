@@ -1,6 +1,6 @@
 <div dir="rtl" align="right">
 
-# 📝 ورقة الغش - Probabilités et Statistiques
+# 📝 ورقة المراجعة - Probabilités et Statistiques
 
 > مراجعة سريعة قبل الامتحان
 
