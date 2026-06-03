@@ -1,6 +1,6 @@
 <div dir="rtl" align="right">
 
-# 📝 ورقة الغش - IHM (JavaFX)
+# 📝 ورقة المراجعة - IHM (JavaFX)
 
 > مراجعة سريعة قبل الامتحان
 
