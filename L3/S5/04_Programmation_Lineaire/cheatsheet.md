@@ -1,6 +1,6 @@
 <div dir="rtl" align="right">
 
-# 📝 ورقة الغش - Programmation Linéaire
+# 📝 ورقة المراجعة - Programmation Linéaire
 
 > مراجعة سريعة قبل الامتحان
 
